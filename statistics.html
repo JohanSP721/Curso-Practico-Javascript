@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./statistics.css">
+	<title>Media, Mediana y Moda | Curso Practico de JavaScript</title>
+</head>
+<body>
+	<header>
+		<h1>Media Mediana y Moda</h1>
+		<p>Este es el tercer taller del Curso Practico de JavaScript</p>
+		<a href="./index.html">Home</a>
+	</header>
+	<section>
+		<form>
+			<label for="InputList">Ingresa tu lista de elementos (numéricos para media y mediana) separados por comas o espacios</label>
+			<input id="InputList" type="text">
+			<p id="Statistics"></p>
+			<article>
+				<button type="button" onclick="calculateAverage()">Media</button>
+				<button type="button" onclick="calculateMedian()">Mediana</button>
+				<button type="button" onclick="calculateMode()">Moda</button>
+			</article>
+		</form>
+	</section>
+	<script src="./statistics.js"></script>
+</body>
+</html>
